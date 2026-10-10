@@ -5,81 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Manasvi | CSE Student Portfolio</title>
-
-    <meta name="description"
-          content="Personal portfolio of Manasvi, a 3rd-semester Computer Science Engineering student.">
+    <meta name="description" content="Personal portfolio of Manasvi, a 3rd-semester Computer Science Engineering student.">
 
     <link rel="stylesheet" href="style.css">
 
-    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
+    <div class="space-bg" aria-hidden="true">
+        <div class="nebula nebula-one"></div>
+        <div class="nebula nebula-two"></div>
+        <div class="stars" id="stars-layer"></div>
+    </div>
 
-    <!-- ================= NAVIGATION ================= -->
     <header class="header">
-        <nav class="navbar">
-
+        <nav class="navbar" aria-label="Main navigation">
             <a href="#home" class="logo">Manasvi<span>.</span></a>
 
-            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
                 ☰
             </button>
 
             <ul class="nav-links" id="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#profiles">Coding Profiles &amp; Socials</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#activities">Activities</a></li>
-                <li><a href="#goals">Goals</a></li>
+                <li><a href="#activities">Experience &amp; Activities</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#goals">Learning &amp; Goals</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-
         </nav>
     </header>
 
-
-    <!-- ================= HOME ================= -->
     <main>
-
         <section id="home" class="hero">
-
             <div class="hero-content">
-
                 <p class="hero-intro">Hello, I'm</p>
-
                 <h1>Manasvi</h1>
-
-                <h2>Computer Science Engineering Student</h2>
-
+                <h2>Computer Science and Engineering student</h2>
                 <p class="hero-description">
-                    A 3rd-semester CSE student interested in programming,
-                    problem solving, data structures and algorithms,
-                    web development, and practical software development.
+                    A 3rd-semester CSE student building a strong foundation in programming, problem solving,
+                    software development, and practical project work.
                 </p>
 
                 <div class="hero-buttons">
-                    <a href="#projects" class="btn primary-btn">
-                        View My Projects
-                    </a>
-
-                    <a href="#contact" class="btn secondary-btn">
-                        Contact
-                    </a>
+                    <a href="#projects" class="btn primary-btn">Explore My Projects</a>
+                    <a href="https://github.com/manugowda5706manasvi-sys" target="_blank" rel="noopener noreferrer" class="btn secondary-btn">View My GitHub</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
                 </div>
-
             </div>
 
-            <div class="hero-card">
-
+            <div class="hero-card" aria-label="Student profile summary">
                 <div class="code-window">
-
                     <div class="window-top">
                         <span></span>
                         <span></span>
@@ -106,54 +90,39 @@
                         </p>
                         <p>}</p>
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
-
-        <!-- ================= ABOUT ================= -->
         <section id="about" class="section">
-
             <div class="section-heading">
-                <p class="section-label">ABOUT ME</p>
-                <h2>Getting to Know Me</h2>
+                <p class="section-label">About Me</p>
+                <h2>Getting to know me</h2>
             </div>
 
             <div class="about-container">
-
                 <div class="about-text">
-
                     <p>
-                        I am a 3rd-semester Computer Science Engineering
-                        student with an interest in programming, problem
-                        solving, data structures and algorithms, and
-                        web development.
+                        I am a B.Tech Computer Science and Engineering student at REVA University, currently in my 3rd semester,
+                        with an interest in programming, software development, and problem solving.
                     </p>
 
                     <p>
-                        I am currently building my programming fundamentals
-                        and gaining practical experience through coding
-                        practice, GitHub-based activities, and software
-                        development projects.
+                        I am building my foundation through coursework, coding practice, and hands-on projects while developing a stronger
+                        understanding of data structures, algorithms, and web technologies.
                     </p>
 
                     <p>
-                        My focus is on continuously learning and improving
-                        my technical skills through hands-on practice.
+                        My focus is on continuous learning, practical implementation, and creating work that reflects my growth as a student developer.
                     </p>
-
                 </div>
 
                 <div class="student-info">
-
                     <div class="info-card">
                         <span class="info-icon">🎓</span>
                         <div>
                             <h3>Branch</h3>
-                            <p>Computer Science Engineering</p>
+                            <p>Computer Science and Engineering</p>
                         </div>
                     </div>
 
@@ -169,259 +138,273 @@
                         <span class="info-icon">💻</span>
                         <div>
                             <h3>Focus</h3>
-                            <p>Programming & Problem Solving</p>
+                            <p>Programming &amp; software development</p>
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
+        <section id="education" class="section education-section">
+            <div class="section-heading">
+                <p class="section-label">Academic Background</p>
+                <h2>Education</h2>
+                <p>My academic journey from school to Computer Science and Engineering.</p>
+            </div>
 
-        <!-- ================= SKILLS ================= -->
+            <div class="education-grid">
+                <article class="education-card">
+                    <p class="education-period">Current</p>
+                    <h3>B.Tech in Computer Science and Engineering</h3>
+                    <p class="education-institution">REVA University</p>
+                    <div class="education-details">
+                        <p>Currently pursuing · 3rd semester</p>
+                        <p>Expected graduation: 2029</p>
+                    </div>
+                </article>
+
+                <article class="education-card">
+                    <p class="education-period">Completed · 2024</p>
+                    <h3>Pre-University Course (PUC)</h3>
+                    <p class="education-institution">Shri Dharmasthala Manjunatheshwara (SDM) PU College, Ujire, Karnataka</p>
+                    <div class="education-details">
+                        <p>Completion year: 2024</p>
+                        <p>Percentage: 93.67%</p>
+                    </div>
+                </article>
+
+                <article class="education-card">
+                    <p class="education-period">Completed · 2022</p>
+                    <h3>Class 10 / SSLC</h3>
+                    <p class="education-institution">Morarji Desai Residential School (MDRS), Mallenahalli</p>
+                    <div class="education-details">
+                        <p>Board: KSEEB · Completion year: 2022</p>
+                        <p>Percentage: 99.2%</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
         <section id="skills" class="section section-alt">
-
             <div class="section-heading">
-                <p class="section-label">MY SKILLS</p>
-                <h2>Technologies & Skills</h2>
-                <p>
-                    Skills and tools I am learning and practicing as a
-                    Computer Science Engineering student.
-                </p>
+                <p class="section-label">Skills</p>
+                <h2>Skills</h2>
+                <p>Tools and technologies I am learning and applying in my projects and coursework.</p>
             </div>
 
-            <div class="skills-grid">
-
-                <div class="skill-card">
-                    <span>💻</span>
-                    <h3>C Programming</h3>
-                    <p>Programming fundamentals and problem solving.</p>
+            <div class="skill-groups">
+                <div class="skill-group">
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li class="skill-pill">C</li>
+                        <li class="skill-pill">Java</li>
+                        <li class="skill-pill">Python</li>
+                    </ul>
                 </div>
 
-                <div class="skill-card">
-                    <span>☕</span>
-                    <h3>Java</h3>
-                    <p>Object-oriented programming fundamentals.</p>
+                <div class="skill-group">
+                    <h3>Web Development</h3>
+                    <ul class="skill-list">
+                        <li class="skill-pill">HTML5</li>
+                        <li class="skill-pill">CSS3</li>
+                        <li class="skill-pill">JavaScript</li>
+                        <li class="skill-pill">React</li>
+                        <li class="skill-pill">TypeScript</li>
+                    </ul>
                 </div>
 
-                <div class="skill-card">
-                    <span>🌐</span>
-                    <h3>HTML & CSS</h3>
-                    <p>Building and styling web pages.</p>
+                <div class="skill-group">
+                    <h3>Tools &amp; Platforms</h3>
+                    <ul class="skill-list">
+                        <li class="skill-pill">Git</li>
+                        <li class="skill-pill">GitHub</li>
+                        <li class="skill-pill">VS Code</li>
+                        <li class="skill-pill">GitLens</li>
+                        <li class="skill-pill">GitHub Live Share</li>
+                    </ul>
                 </div>
 
-                <div class="skill-card">
-                    <span>🔧</span>
-                    <h3>Git & GitHub</h3>
-                    <p>Version control and repository management.</p>
+                <div class="skill-group">
+                    <h3>Computer Science Fundamentals</h3>
+                    <ul class="skill-list">
+                        <li class="skill-pill">DSA</li>
+                        <li class="skill-pill">Problem Solving</li>
+                        <li class="skill-pill">DBMS</li>
+                        <li class="skill-pill">SQL</li>
+                    </ul>
                 </div>
-
-                <div class="skill-card">
-                    <span>🖥️</span>
-                    <h3>VS Code</h3>
-                    <p>Development environment for coding projects.</p>
-                </div>
-
-                <div class="skill-card">
-                    <span>🔗</span>
-                    <h3>GitLens</h3>
-                    <p>Git workflow and repository insights.</p>
-                </div>
-
-                <div class="skill-card">
-                    <span>🤝</span>
-                    <h3>GitHub Live Share</h3>
-                    <p>Collaborative development and coding.</p>
-                </div>
-
-                <div class="skill-card">
-                    <span>🧠</span>
-                    <h3>DSA & Problem Solving</h3>
-                    <p>Basic data structures, algorithms, and logical thinking.</p>
-                </div>
-
-                <div class="skill-card">
-                    <span>🗄️</span>
-                    <h3>SQL / DBMS</h3>
-                    <p>Database and DBMS fundamentals.</p>
-                </div>
-
             </div>
-
         </section>
 
-
-        <!-- ================= PROJECTS ================= -->
-        <section id="projects" class="section">
-
+        <section id="profiles" class="section section-alt">
             <div class="section-heading">
-                <p class="section-label">MY WORK</p>
-                <h2>Projects & Practice</h2>
-                <p>
-                    Repositories and coding activities that document my
-                    learning and practical work.
-                </p>
+                <p class="section-label">Coding Profiles &amp; Socials</p>
+                <h2>Coding profiles &amp; socials</h2>
+                <p>Places where I keep learning, practicing, and sharing my technical interests.</p>
+            </div>
+
+            <div class="profile-grid">
+                <a href="https://leetcode.com/u/manu_5706" target="_blank" rel="noopener noreferrer" class="profile-card" aria-label="Visit Manasvi on LeetCode">
+                    <div class="profile-icon profile-icon--leet">LC</div>
+                    <div class="profile-copy">
+                        <h3>LeetCode</h3>
+                        <p>Practicing coding problems and strengthening problem-solving skills.</p>
+                    </div>
+                    <span class="profile-button">Visit Profile</span>
+                </a>
+
+                <a href="https://www.hackerrank.com/profile/manugowda5706ma1" target="_blank" rel="noopener noreferrer" class="profile-card" aria-label="Visit Manasvi on HackerRank">
+                    <div class="profile-icon profile-icon--hackerrank">HR</div>
+                    <div class="profile-copy">
+                        <h3>HackerRank</h3>
+                        <p>Exploring programming challenges and developing technical skills.</p>
+                    </div>
+                    <span class="profile-button">Visit Profile</span>
+                </a>
+
+                <a href="https://github.com/manugowda5706manasvi-sys" target="_blank" rel="noopener noreferrer" class="profile-card" aria-label="View Manasvi's GitHub repositories">
+                    <div class="profile-icon profile-icon--github">GH</div>
+                    <div class="profile-copy">
+                        <h3>GitHub</h3>
+                        <p>Explore my repositories, projects, and development work.</p>
+                    </div>
+                    <span class="profile-button">View Repositories</span>
+                </a>
+
+                <a href="https://www.instagram.com/_manasvi_576" target="_blank" rel="noopener noreferrer" class="profile-card" aria-label="Visit Manasvi on Instagram">
+                    <div class="profile-icon profile-icon--instagram">IG</div>
+                    <div class="profile-copy">
+                        <h3>Instagram</h3>
+                        <p>Sharing my technical interests and building toward future content.</p>
+                    </div>
+                    <span class="profile-button">Visit Instagram</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <p class="section-label">Projects</p>
+                <h2>Projects</h2>
+                <p>Selected work that reflects my learning, problem solving, and software development progress.</p>
             </div>
 
             <div class="projects-grid">
-
-                <!-- Project 1 -->
                 <article class="project-card">
-
-                    <div class="project-icon">🌐</div>
-
+                    <div class="project-icon">⚖️</div>
                     <div class="project-content">
-
-                        <span class="project-tag">Web Development</span>
-
-                        <h3>Portfolio Building / Web Development Activity</h3>
-
+                        <span class="project-tag">Prototype — Local Demo</span>
+                        <h3>Smart Legal Metrology Compliance &amp; Inspection System</h3>
                         <p>
-                            A portfolio and web-development learning activity
-                            involving GitHub, Git, web development, and
-                            collaboration-related tools.
+                            An inspection-assistance tool focused on extracting product-label information and checking declarations against configurable legal-compliance rules.
                         </p>
-
-                        <a
-                            href="https://github.com/manugowda5706manasvi-sys/pb_wad"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="project-link">
-                            View on GitHub →
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Project 2 -->
-                <article class="project-card">
-
-                    <div class="project-icon">🏆</div>
-
-                    <div class="project-content">
-
-                        <span class="project-tag">Programming Practice</span>
-
-                        <h3>HackerRank 3rd Semester Portfolio</h3>
-
-                        <p>
-                            A repository documenting HackerRank and
-                            problem-solving practice completed as part of
-                            3rd-semester learning.
-                        </p>
-
-                        <a
-                            href="https://github.com/manugowda5706manasvi-sys/HackerRank-3rdSem-Portfolio"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="project-link">
-                            View on GitHub →
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Project 3 -->
-                <article class="project-card">
-
-                    <div class="project-icon">🧩</div>
-
-                    <div class="project-content">
-
-                        <span class="project-tag">DSA / C</span>
-
-                        <h3>LeetCode Solutions</h3>
-
-                        <p>
-                            A repository containing LeetCode problem-solving
-                            practice in C.
-                        </p>
-
                         <div class="problem-list">
-                            <span>Two Sum</span>
-                            <span>Reverse String</span>
-                            <span>Valid Anagram</span>
-                            <span>Stock</span>
-                            <span>Binary Search</span>
-                            <span>Move Zeroes</span>
-                            <span>Valid Parentheses</span>
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>Vite</span>
+                            <span>Tailwind CSS</span>
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>OCR</span>
+                            <span>SQLite</span>
                         </div>
-
-                        <a
-                            href="https://github.com/manugowda5706manasvi-sys/leetcode-solutions"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="project-link">
-                            View on GitHub →
-                        </a>
-
+                        <a href="https://github.com/manugowda5706manasvi-sys/SIH_PROJECT" target="_blank" rel="noopener noreferrer" class="project-link">View Repository →</a>
                     </div>
-
                 </article>
 
-
-                <!-- Project 4 -->
                 <article class="project-card">
-
-                    <div class="project-icon">📝</div>
-
+                    <div class="project-icon">🧠</div>
                     <div class="project-content">
-
-                        <span class="project-tag">C Programming</span>
-
-                        <h3>Line Editor in C</h3>
-
+                        <span class="project-tag">Hackathon Prototype</span>
+                        <h3>CPU Scheduling Algorithm Simulator</h3>
                         <p>
-                            A C programming project/resource related to
-                            building a line editor. This project is included
-                            as part of practical programming work.
+                            A college hackathon project that helps students explore CPU scheduling algorithms and compare their performance.
                         </p>
-
-                        <a
-                            href="https://github.com/Kavyarai-11a/Line_Editor_In_C_Project"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="project-link">
-                            View Repository →
-                        </a>
-
+                        <div class="problem-list">
+                            <span>FCFS</span>
+                            <span>SJF</span>
+                            <span>Priority</span>
+                            <span>Round Robin</span>
+                            <span>Gantt Chart</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/manugowda5706manasvi-sys/CPU-Scheduler-Simulator" target="_blank" rel="noopener noreferrer" class="project-link">View Repository →</a>
                     </div>
-
                 </article>
 
-            </div>
+                <article class="project-card">
+                    <div class="project-icon">🛡️</div>
+                    <div class="project-content">
+                        <span class="project-tag">Prototype — Verify Current Features</span>
+                        <h3>GeoVision Flutter App</h3>
+                        <p>
+                            A campus-security application prototype featuring a dashboard, simulated CCTV views, visitor management, and a face-enrolment flow.
+                        </p>
+                        <div class="problem-list">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>GoRouter</span>
+                            <span>SQLite</span>
+                            <span>Local Storage</span>
+                            <span>API Integration</span>
+                        </div>
+                        <a href="https://github.com/manugowda5706manasvi-sys/gcs-geovision" target="_blank" rel="noopener noreferrer" class="project-link">View Repository →</a>
+                    </div>
+                </article>
 
+                <article class="project-card">
+                    <div class="project-icon">⌨️</div>
+                    <div class="project-content">
+                        <span class="project-tag">C Project</span>
+                        <h3>Command-Line Line Editor in C</h3>
+                        <p>
+                            A command-line text editor implemented in C with dynamic document storage, search and replace, save/load operations, and help commands.
+                        </p>
+                        <div class="problem-list">
+                            <span>C</span>
+                            <span>File I/O</span>
+                            <span>String Handling</span>
+                            <span>Dynamic Memory</span>
+                        </div>
+                        <a href="https://github.com/manugowda5706manasvi-sys/Line_Editor_In_C_Project" target="_blank" rel="noopener noreferrer" class="project-link">View Repository →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon">✏️</div>
+                    <div class="project-content">
+                        <span class="project-tag">C Project</span>
+                        <h3>2D Graphics Editor in C</h3>
+                        <p>
+                            A menu-driven graphics project that draws and manages shapes on an 80-by-40 character canvas with editing, zoom, and reset operations.
+                        </p>
+                        <div class="problem-list">
+                            <span>C</span>
+                            <span>Linked Lists</span>
+                            <span>Math.h</span>
+                            <span>Shape Drawing</span>
+                        </div>
+                        <a href="https://github.com/manugowda5706manasvi-sys/MINI_PROJECT_ACP" target="_blank" rel="noopener noreferrer" class="project-link">View Repository →</a>
+                    </div>
+                </article>
+            </div>
         </section>
 
-
-        <!-- ================= ACTIVITIES ================= -->
         <section id="activities" class="section section-alt">
-
             <div class="section-heading">
-                <p class="section-label">LEARNING</p>
-                <h2>Activities & Learning</h2>
-                <p>
-                    Areas where I am developing my programming and
-                    software development skills.
-                </p>
+                <p class="section-label">Experience &amp; Activities</p>
+                <h2>Experience &amp; activities</h2>
+                <p>Academic projects, hackathon work, and learning activities that shape my development journey.</p>
             </div>
 
             <div class="timeline">
-
                 <div class="timeline-item">
                     <div class="timeline-number">01</div>
                     <div>
-                        <h3>Web Development & GitHub Portfolio Building</h3>
-                        <p>
-                            Practicing web development while learning to
-                            organize and maintain work using GitHub.
-                        </p>
+                        <h3>Web Development and Portfolio Practice</h3>
+                        <p>Building and refining projects while learning HTML, CSS, JavaScript, Git, and professional portfolio presentation.</p>
                     </div>
                 </div>
 
@@ -429,10 +412,7 @@
                     <div class="timeline-number">02</div>
                     <div>
                         <h3>HackerRank Programming Practice</h3>
-                        <p>
-                            Practicing programming and problem solving
-                            through HackerRank.
-                        </p>
+                        <p>Exploring programming challenges and strengthening my understanding of problem solving and algorithmic thinking.</p>
                     </div>
                 </div>
 
@@ -440,77 +420,81 @@
                     <div class="timeline-number">03</div>
                     <div>
                         <h3>LeetCode Problem Solving</h3>
-                        <p>
-                            Solving programming problems in C to improve
-                            logical thinking and DSA fundamentals.
-                        </p>
+                        <p>Improving logical thinking, data-structure understanding, and coding confidence through regular practice.</p>
                     </div>
                 </div>
 
                 <div class="timeline-item">
                     <div class="timeline-number">04</div>
                     <div>
-                        <h3>C Programming & Data Structures</h3>
-                        <p>
-                            Developing programming fundamentals and practicing
-                            basic data structures and algorithms.
-                        </p>
+                        <h3>Academic Projects and Hackathons</h3>
+                        <p>Working on practical projects that connect theory with implementation across different domains and technologies.</p>
                     </div>
                 </div>
 
                 <div class="timeline-item">
                     <div class="timeline-number">05</div>
                     <div>
-                        <h3>Git & GitHub Workflow</h3>
-                        <p>
-                            Learning version control, repositories, commits,
-                            and GitHub-based development workflows.
-                        </p>
+                        <h3>Git and Version Control Workflow</h3>
+                        <p>Learning to manage repositories, organize project history, and collaborate effectively using GitHub tools.</p>
                     </div>
                 </div>
 
                 <div class="timeline-item">
                     <div class="timeline-number">06</div>
                     <div>
-                        <h3>Collaboration Tools</h3>
-                        <p>
-                            Practicing collaborative development using
-                            GitLens and GitHub Live Share.
-                        </p>
+                        <h3>Collaborative Development Practice</h3>
+                        <p>Using Git-based collaboration tools and shared workflows to support clean and structured project development.</p>
                     </div>
                 </div>
-
             </div>
-
         </section>
 
-
-        <!-- ================= GOALS ================= -->
-        <section id="goals" class="section">
-
+        <section id="achievements" class="section">
             <div class="section-heading">
-                <p class="section-label">MY DIRECTION</p>
-                <h2>Career & Learning Goals</h2>
+                <p class="section-label">Achievements</p>
+                <h2>Building My Journey</h2>
+            </div>
+
+            <div class="empty-state-card">
+                <div class="empty-state-icon">✦</div>
+                <p>
+                    Every milestone starts with learning, practice, and persistence. I'm focused on strengthening my technical skills,
+                    building meaningful projects, and working toward future opportunities.
+                </p>
+            </div>
+        </section>
+
+        <section id="certifications" class="section section-alt">
+            <div class="section-heading">
+                <p class="section-label">Certifications</p>
+                <h2>My Learning Journey</h2>
+            </div>
+
+            <div class="empty-state-card empty-state-card--soft">
+                <div class="empty-state-icon">▣</div>
+                <p>
+                    I'm continuously developing my knowledge through coursework, hands-on projects, and independent learning. This section will grow as I complete relevant certifications and professional learning milestones.
+                </p>
+            </div>
+        </section>
+
+        <section id="goals" class="section">
+            <div class="section-heading">
+                <p class="section-label">Learning &amp; Goals</p>
+                <h2>Learning &amp; goals</h2>
             </div>
 
             <div class="goal-container">
-
                 <div class="goal-icon">🎯</div>
 
                 <div class="goal-content">
-
                     <h3>Continuous Learning</h3>
-
                     <p>
-                        My current goal is to strengthen my programming
-                        fundamentals, improve my problem-solving and
-                        data structures and algorithms skills, build
-                        practical software projects, and continue learning
-                        software development technologies.
+                        I am focused on strengthening my programming fundamentals, improving my problem-solving skills, and building software projects that reflect real learning and practical application.
                     </p>
 
                     <div class="goal-points">
-
                         <div>
                             <span>✓</span>
                             <p>Strengthen programming fundamentals</p>
@@ -528,91 +512,56 @@
 
                         <div>
                             <span>✓</span>
-                            <p>Continue learning software development technologies</p>
+                            <p>Continue exploring modern technologies</p>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
-
-        <!-- ================= CONTACT ================= -->
         <section id="contact" class="section contact-section">
-
             <div class="section-heading">
-
-                <p class="section-label">CONNECT</p>
-
-                <h2>Let's Connect</h2>
-
-                <p>
-                    Explore my work and learning journey through my
-                    GitHub and LinkedIn profiles.
-                </p>
-
+                <p class="section-label">Contact</p>
+                <h2>Let's connect</h2>
+                <p>For internships, projects, and professional opportunities, feel free to connect with me.</p>
             </div>
 
             <div class="contact-cards">
-
-                <a
-                    href="https://github.com/manugowda5706manasvi-sys"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="contact-card">
-
-                    <span class="contact-icon">🐙</span>
-
-                    <div>
-                        <h3>GitHub</h3>
-                        <p>View my repositories and coding work</p>
-                    </div>
-
-                    <span class="arrow">→</span>
-
-                </a>
-
-
-                <a
-                    href="https://linkedin.com/in/manasvi-277902385"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="contact-card">
-
+                <a href="https://linkedin.com/in/manasvi-277902385" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Visit Manasvi on LinkedIn">
                     <span class="contact-icon">💼</span>
-
                     <div>
                         <h3>LinkedIn</h3>
-                        <p>Connect with me professionally</p>
+                        <p>Connect professionally</p>
                     </div>
-
                     <span class="arrow">→</span>
-
                 </a>
 
+                <a href="https://github.com/manugowda5706manasvi-sys" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Visit Manasvi on GitHub">
+                    <span class="contact-icon">🐙</span>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>View repositories and project work</p>
+                    </div>
+                    <span class="arrow">→</span>
+                </a>
             </div>
-
         </section>
-
     </main>
 
-
-    <!-- ================= FOOTER ================= -->
     <footer class="footer">
-
-        <p>
-            © <span id="year"></span> Manasvi. Built as a student portfolio.
-        </p>
-
+        <p>© <span id="year"></span> Manasvi. Built as a student portfolio.</p>
         <a href="#home">Back to top ↑</a>
-
     </footer>
 
+    <script src="script.js"></script>
+</body>
+</html>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Manasvi. Built as a student portfolio.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
 
     <script src="script.js"></script>
-
 </body>
 </html>
